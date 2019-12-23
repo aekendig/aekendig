@@ -34,3 +34,10 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# Finder settings
+.DS_Store
+
+# blogdown
+public/
+blogdown/
