@@ -1,56 +1,27 @@
 ---
-date: []
+date: "2019-10-21T00:00:00Z"
 draft: false
 lastmod: []
 linktitle: Introduction to R
 menu:
-  example:
-    name: Overview
+  introR:
+    name: Introduction to R
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
-title: Overview
-toc: true
+summary: Javi Rudolph and I presented this tutorial to R-Ladies Gainesville in October 2019.
+title: Introduction to R
+toc: false
 type: docs
 weight: 1
 ---
 
-## Flexibility
+Slides containing an introduction to the R language and RStudio can be accessed [here](https://github.com/javirudolph/RLadies-Gainesville-FL/blob/master/20191021-Intro2R/20191021_Intro_to_R.pptx).
 
-This feature can be used for publishing content such as:
-
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
-
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
-
-## Delete tutorials
-
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
-
-## Update site menu
-
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
-
-For example, if you delete this folder, you can remove the following from your menu configuration:
-
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
-
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
-
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
-
-## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+Hands-on Tutorial:  
+- You will need R and RStudio installed on your computer  
+- Download the RStudio Project [here](https://tinyurl.com/Intro2R-RLadiesGNV)  
+- Unzip the folder and move it to a location on your computer where you'd like to store it    
+- Open RStudio by double-clicking the project ("Intro2R_RLadiesGNV.Rproj"") 
+- Run the code in "start_here.R" to install the packages needed for the tutorial  
+- Open the "Intro2R.Rmd" file in the code folder  
+- Click "Run Document" to enter the interactive mode  
+- "npk_experiment.R" and "waffle_divorces.R" provide some more advanced code to explore  

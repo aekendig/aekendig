@@ -1,7 +1,8 @@
-# left off configuring the academic template
+# left off writing index for disease-plant-coexistence
+
 # https://sourcethemes.com/academic/docs/get-started/
 # section: Menu
-# doc: tutorials.md
+
 
 # left off on "Edit your configurations"
 # https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/

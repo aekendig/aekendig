@@ -1,56 +1,17 @@
 ---
-date: "2018-09-09T00:00:00Z"
+date: "2019-07-26T00:00:00Z"
 draft: false
-lastmod: "2018-09-09T00:00:00Z"
-linktitle: An Example Course
+lastmod: []
+linktitle: Coding the Environmental Sciences Workshop
 menu:
-  example:
-    name: Overview
+  envsci:
+    name: Coding in the Environmental Sciences
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
-title: Overview
-toc: true
+summary: A one-day workshop designed for K-12 students to learn about coding in the environmental sciences.
+title: Coding in the Environmental Sciences
+toc: false
 type: docs
 weight: 1
 ---
 
-## Flexibility
-
-This feature can be used for publishing content such as:
-
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
-
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
-
-## Delete tutorials
-
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
-
-## Update site menu
-
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
-
-For example, if you delete this folder, you can remove the following from your menu configuration:
-
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
-
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
-
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
-
-## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+This workshop combines data collection with coding for students to gain hands-on experience with environmental science research. Other learning goals include an introduction to research taking place at a local university and introduction or review of basic ecology concepts. The workshop took place at Cedar Creek Ecosystem Science Reserve in East Bethel, MN in 2017 and at the University of Florida in Gainesville, FL in 2019. The materials in this [Github repo](https://github.com/aekendig/CodingEnvSci_UF_FieldTrip) are from the University of Florida workshop. The science curriculum involves data collection from a field experiment and greenhouse experiment the coding curriculum involves an introduction to R and analysis of the collected data in R. Please contact me if you'd like to develop a similar workshop for your research.

@@ -1,56 +1,25 @@
 ---
-date: "2018-09-09T00:00:00Z"
+date: "2019-11-13T00:00:00Z"
 draft: false
-lastmod: "2018-09-09T00:00:00Z"
-linktitle: An Example Course
+lastmod: []
+linktitle: Using Docker and RStudio for Reproducible Research
 menu:
-  example:
-    name: Overview
+  docker:
+    name: Using Docker and RStudio for Reproducible Research
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
-title: Overview
-toc: true
+summary: I presented this tutorial to R-Ladies Gainesville in November 2019.
+title: Using Docker and RStudio for Reproducible Research
+toc: false
 type: docs
 weight: 1
 ---
 
-## Flexibility
+Docker and RStudio are two tools that can be used to increase the reproducibility of your data analysis. Such tools can make it easier for collaborators, other scientists, and "future you" to re-run statistics and create visualizations. This tutorial provides a very simple example of "containerizing" an R script and packages. There are certainly cases in which this example will fail to reproduce the data analysis. Reproducibility is a complex problem that requires continuous effort. 
 
-This feature can be used for publishing content such as:
+Access the tutorial [here](https://github.com/aekendig/docker-rstudio-tutorial/blob/master/tutorial-instructions.md). In this tutorial, you will:  
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+1. Run a simple data analysis locally
+2. Run a template Docker container
+3. Build upon the template Docker container to create your own
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
-
-## Delete tutorials
-
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
-
-## Update site menu
-
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
-
-For example, if you delete this folder, you can remove the following from your menu configuration:
-
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
-
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
-
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
-
-## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+The R-Ladies slides can be found [here](https://github.com/aekendig/docker-rstudio-tutorial/blob/master/Docker_RLadies_Nov2019.pdf)
