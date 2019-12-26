@@ -41,4 +41,4 @@ user_groups:
 - Visitors
 ---
 
-I'm an ecologist and postdoctoral researcher at the University of Florida. My research chips away at the large question of "What make ecological communities tick?" with the ultimate goal of increasing appreciation and protection of biodiversity. I use experiments, data synthesis, and mathematical modeling to study plant and microbial communities experiencing disturbances, including nutrient enrichment and invasive species.
+I'm an ecologist and postdoctoral researcher at the University of Florida. My research aims to understand processes structuring ecological communities with the ultimate goal of increasing appreciation and protection of biodiversity. I use experiments, data synthesis, and mathematical modeling to study plant and microbial communities experiencing disturbances, including nutrient enrichment and invasive species.

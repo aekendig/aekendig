@@ -1,32 +1,33 @@
 ---
-date: "2019-12-23T00:00:00Z"
+date: "2019-12-26T00:00:00Z"
 external_link: []
 image:
-  caption: Viral communities associated with native and exotic grasses.
+  caption: Bipolaris sp. infection on the leaf of an invasive grass.
   focal_point: Smart
 links:
 - icon: github
   icon_pack: fa
   name: Code
-  url: https://github.com/aekendig/invasion-pathogen-communities
+  url: https://github.com/aekendig/microstegium-bipolaris
 slides: invasion-pathogen-communities
-summary: Density-mediated changes in pathogen communities and disease burdens in an invaded grassland.
+summary: Evaluating the effect of an emerging foliar fungal disease on an invasive species co-occurring native species.
 tags:
-- viruses
+- fungi
 - grasses
 - invasion
-title: Invasion and disease burdens
+- coexistence
+title: Disease-mediated plant coexistence
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-**Native and exotic grass densities have similar effects on foliar fungal pathogen communities and disease severity**  
+**Effects of pathogen accumulation on native-invasive plant interactions**  
 
-The biodiversity of ecological communities can have important impacts on disease burdens. One mechanism explaining this phenomenon is that changes in diversity can be related to changes in the densities of highly competent host species (i.e., species that are highly susceptible to infection and can easily transmit pathogens to new hosts). Plant invasions typically decrease biodiversity while the density of the invader increases, sometimes drastically. Therefore, any differences between invasive and native species in their competence for pathogens are likely to result in altered pathogen communities and disease burdens following invasion. We examined foliar fungal pathogen communities associated with native and exotic grasses across observational and manipulated densities of native and exotic grasses in a California grassland to address the following aims: (1) Characterize foliar fungal pathogen communities associated with native and exotic grasses; (2) Evaluate the effects of host status (i.e., native/exotic) on the relationship between grass density and pathogen relative abundance; and (3) Evaluate the effects of host status on the relationship between grass density and pathogen damage. We found that native and exotic grasses hosted distinct pathogen communities but were both infected by overlapping generalist pathogens. Native grasses experienced higher pathogen damage. The densities of both native and exotic species promoted fungal damage and altered the relative abundances of some pathogen species while having limited effects on most. While invasive species may cultivate distinct pathogen communities from co-occurring native species, we found that exotic grasses do not have unique effects on pathogen relative abundance and damage in California grasslands.   
-*Collaborators: Erin Spear, Caroline Daws, Luke Flory, Erin Mordecai*  
+Invasive species can escape pathogens when they are introduced to a new range, which may provide them with a competitive advantage over native species. However, mounting evidence suggests that invasive species accumulate pathogens over time, some of which are generalists that can emerge from native species and spillback to them. Changes in host fitness due to disease can lead to multiple outcomes of competition: coexistence, exclusion, or priority effects. The few studies that have evaluated the impacts of pathogen accumulation on invaded communities have found that it promotes coexistence or suppresses native species. However, recent evidence suggests that emerging fungal pathogens in the genus *Bipolaris* can suppress the invasive grass, *Microstegium vimineum*, favoring native species. The goal of this research is to characterize the current and long-term effects of fungal pathogen accumulation on competition between *M. vimineum* and native species. We employ field experiments, greenhouse experiments, and modeling to assess how fungal infection alters the outcome of competition between *M. vimineum* and native perennial grasses. We monitored plant performance and infection within constructed communities of *M. vimineum* and a native grass species at invaded field sites where disease severity was mitigated through repeated fungicide applications. In the greenhouse, we extended this research to understand how a wide range of *M. vimineum* densities affects the growth and disease prevalence of multiple native grass species. We also used a greenhouse experiment to examine the potential for senesced *M. vimineum* biomass, which accumulates in invaded areas, to affect disease transmission and competition. We used data from our experiments and the literature to parameterize a discrete-time plant competition model.  
+*Collaborators: Christopher Wojan, Liliana Benitez, Vida Svahnstrom, Ashish Adhikari, Brett Lane, Nick Kortessis, Maggie Simon, Mike Barfield, Bob Holt, Phil Harmon, Keith Clay, Erica Goss, and Luke Flory*  
 
-Use the link at the top of the page to access the code for this research.
+Use the links at the top of the page to access the code for this research.
 
 
