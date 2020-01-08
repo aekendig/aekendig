@@ -26,7 +26,7 @@ tags:
 - viruses
 - grasses
 - nutrients
-title: Host nutrient supply mediates facilitation and competition between plant 
+title: Host nutrient supply mediates facilitation and competition between plant viruses
 url_code: https://github.com/aekendig/nutrients-plant-viruses
 url_dataset: https://doi.org/10.6073/pasta/01e7bf593676a942f262623710acba13
 url_pdf: https://www.biorxiv.org/content/10.1101/761254v1
