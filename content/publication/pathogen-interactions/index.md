@@ -28,7 +28,7 @@ tags:
 - nutrients
 title: Host nutrition mediates interactions between plant viruses, altering transmission and predicted disease spread
 url_code: https://github.com/aekendig/nutrients-plant-viruses
-url_dataset: https://doi.org/10.6073/pasta/01e7bf593676a942f262623710acba13
+url_dataset: https://portal.edirepository.org/nis/mapbrowse?scope=edi&identifier=411&revision=2
 url_pdf: https://doi.org/10.1002/ecy.3155
 #url_poster: '#'
 url_project: ""
