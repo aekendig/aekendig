@@ -41,4 +41,4 @@ user_groups:
 - Visitors
 ---
 
-I'm an ecologist and postdoctoral researcher at the University of Florida. My research aims to understand how species interactions shape ecological communities with the ultimate goal of increasing appreciation and protection of biodiversity. I use experiments, data synthesis, and mathematical modeling to study plant and pathogen communities experiencing disturbances, including nutrient enrichment and species invasions.
+I'm an ecologist and postdoctoral researcher at the University of Florida. My research aims to understand how species interactions shape ecological communities with the ultimate goal of increasing appreciation and protection of biodiversity. I use experiments, data synthesis, and mathematical modeling to study plant and pathogen communities. 
