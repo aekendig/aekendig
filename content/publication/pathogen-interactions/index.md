@@ -8,7 +8,7 @@ authors:
 - Eric W. Seabloom
 date: "2020-08-09T00:00:00Z"
 doi: "10.1002/ecy.3155"
-featured: true
+featured: false
 image:
   caption: Aphids, the vector of B/CYDVs, on a leaf
   focal_point: ""
