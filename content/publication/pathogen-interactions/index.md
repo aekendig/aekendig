@@ -18,7 +18,7 @@ projects:
 publication: In *Ecology*
 publication_short:
 publication_types:
-- "3"
+- "2"
 publishDate: "2020-08-09T00:00:00Z"
 slides: pathogen-interactions
 summary: Nutrients provided to plants can mediate among-virus interactions and transmission to new plants.
