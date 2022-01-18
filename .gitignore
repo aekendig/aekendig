@@ -39,6 +39,11 @@ vignettes/*.pdf
 .DS_Store
 
 # blogdown
-public/
+/public/
 blogdown/
 static/files/~$cv.docx
+
+# check_gitignore additions
+Thumbs.db
+.hugo_build.lock
+/resources/
